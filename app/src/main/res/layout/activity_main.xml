@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
+        android:visibility="visible"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
@@ -62,4 +63,11 @@
         app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOblicz"
+        android:text="oblicz">
+    </Button>
 </androidx.appcompat.widget.LinearLayoutCompat>
